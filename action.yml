@@ -4,6 +4,9 @@ inputs:
   openapi_path:
     description: 'openapi file to link to'
     required: true
+  base_url:
+    description: 'The base-url hosting swagger-UI (with custom inflate logic)'
+    required: true
 outputs:
   url:
     description: 'the swagger-ui link'
